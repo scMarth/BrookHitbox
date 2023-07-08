@@ -1,0 +1,65 @@
+pins:
+
+GND
+
+4k
+3k
+2k
+1k
+
+4p
+3p
+2p
+1p
+
+start
+
+select
+ps/xbox
+
+right
+left
+up
+down
+
+VDD_5V
+
+
+buttons:
+
+4k
+3k
+2k
+1k
+4p
+3p
+2p
+1p
+start
+select
+ps/xbox
+right
+left
+up
+down
+
+
+nets:
+
+LFT
+DWN
+RT
+UP
+STA
+SEL
+PS
+SQU - 1P
+TRI - 2P
+R1 - 3P
+L1 - 4P
+X - 1K
+CIR - 2K
+R2 - 3K
+L2 - 4K
+
+

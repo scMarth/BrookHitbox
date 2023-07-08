@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BrookHitboxSymbols")(type "KiCad")(uri "${KIPRJMOD}/BrookHitboxSymbols.kicad_sym")(options "")(descr ""))
+)
