@@ -63,3 +63,23 @@ R2 - 3K
 L2 - 4K
 
 
+
+SW_Cherry_MX_1.00u_PCB: This footprint is specifically designed for Cherry MX switches that are mounted directly onto a PCB. It includes the necessary pads and holes for soldering the switch pins to the PCB. The switch is secured to the PCB using solder joints, and there is no additional plate required.
+
+
+
+
+
+
+
+grid x 0.0010 y 0.0010
+[14.246, 73.114]  [42.602, 70.388]  [69.174, 82.151]           [148.906, 82.151]         [227.968, 54.168] [254.486, 42.172] [282.841, 45.147] [309.064, 61.183]
+                                                                                         [227.968, 81.777] [254.486, 69.782] [282.841, 72.757] [309.064, 88.793]
+
+                                      [76.133, 149.302]                    [198.266, 133.887] (C-Left)  [220.953, 149.302] (GC A)
+                                                                        [198.266, 165.072] (C-Down)
+
+
+Haystack code uses C-Left and C-Down:
+    outputs.select = inputs.c_left;
+    outputs.home = inputs.c_down;

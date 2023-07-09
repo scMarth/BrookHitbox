@@ -123,7 +123,7 @@
         (name "PIN1" (effects (font (size 1.27 1.27))))
         (number "" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -2.54 7.62 0) (length 2.54)
+      (pin power_in line (at -2.54 7.62 0) (length 2.54)
         (name "PIN2" (effects (font (size 1.27 1.27))))
         (number "" (effects (font (size 1.27 1.27))))
       )
