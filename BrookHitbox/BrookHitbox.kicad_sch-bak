@@ -129,7 +129,7 @@
           (name "PIN1" (effects (font (size 1.27 1.27))))
           (number "" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at -2.54 7.62 0) (length 2.54)
+        (pin bidirectional line (at -2.54 7.62 0) (length 2.54)
           (name "PIN2" (effects (font (size 1.27 1.27))))
           (number "" (effects (font (size 1.27 1.27))))
         )
@@ -175,51 +175,8 @@
         )
       )
     )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
   )
 
-  (junction (at 132.08 186.69) (diameter 0) (color 0 0 0 0)
-    (uuid 9b8282b8-1050-47a7-86bc-a35546b0bb49)
-  )
 
   (wire (pts (xy 132.08 209.55) (xy 134.62 209.55))
     (stroke (width 0) (type default))
@@ -265,10 +222,6 @@
     (stroke (width 0) (type default))
     (uuid 62a815cd-5d86-4acf-a12d-ca2e7022d3b8)
   )
-  (wire (pts (xy 132.08 186.69) (xy 134.62 186.69))
-    (stroke (width 0) (type default))
-    (uuid 68eb73fe-0023-4973-b038-9130607777d8)
-  )
   (wire (pts (xy 132.08 207.01) (xy 134.62 207.01))
     (stroke (width 0) (type default))
     (uuid 694ee582-330f-4c2c-ba54-67e88809dbf5)
@@ -305,7 +258,7 @@
     (stroke (width 0) (type default))
     (uuid 9ee0fcb3-f6d6-4727-a1a0-9371c996e103)
   )
-  (wire (pts (xy 128.27 186.69) (xy 132.08 186.69))
+  (wire (pts (xy 128.27 186.69) (xy 134.62 186.69))
     (stroke (width 0) (type default))
     (uuid aef4fb8f-f08f-4131-a332-3b1406356356)
   )
@@ -500,7 +453,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 261.62 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f3c24fd-9cc2-4bb0-8eb0-0758a8163419)
-    (property "Reference" "SW_SQUARE1" (at 273.05 49.53 0)
+    (property "Reference" "SW_SQUARE" (at 273.05 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 261.62 48.26 0)
@@ -517,16 +470,41 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_SQUARE1") (unit 1)
+          (reference "SW_SQUARE") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 184.15 53.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1c86b86f-3294-4058-870e-6f4a4afe9a50)
+    (property "Reference" "#PWR012" (at 184.15 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 184.15 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 184.15 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 184.15 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d0d54f53-65d5-417c-84a5-c9673e6519f7))
+    (instances
+      (project "BrookHitbox"
+        (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
+          (reference "#PWR012") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "BrookHitboxSymbols:BrookConnection") (at 137.16 226.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 212ecd48-f23d-4a3a-b467-7efe3b97f1f7)
-    (property "Reference" "BrookConnection1" (at 149.86 227.33 0)
+    (property "Reference" "U1" (at 163.83 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 137.16 226.06 0)
@@ -557,7 +535,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "BrookConnection1") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -566,7 +544,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 107.95 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a7c64e7-35f9-45df-9d6b-e2ad98b37b55)
-    (property "Reference" "SW_RIGHT1" (at 119.38 69.85 0)
+    (property "Reference" "SW_RIGHT" (at 119.38 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 107.95 68.58 0)
@@ -583,7 +561,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_RIGHT1") (unit 1)
+          (reference "SW_RIGHT") (unit 1)
         )
       )
     )
@@ -592,7 +570,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 298.45 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ad035fc-0261-4a50-9665-3150958f05aa)
-    (property "Reference" "SW_TRIANGLE1" (at 309.88 49.53 0)
+    (property "Reference" "SW_TRIANGLE" (at 309.88 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 298.45 48.26 0)
@@ -609,7 +587,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_TRIANGLE1") (unit 1)
+          (reference "SW_TRIANGLE") (unit 1)
         )
       )
     )
@@ -769,7 +747,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 113.03 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5297bfb0-2c24-4c4a-8810-701a0d99bfea)
-    (property "Reference" "SW_UP1" (at 124.46 140.97 0)
+    (property "Reference" "SW_UP" (at 124.46 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 113.03 139.7 0)
@@ -786,7 +764,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_UP1") (unit 1)
+          (reference "SW_UP") (unit 1)
         )
       )
     )
@@ -795,7 +773,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 231.14 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5efaea29-7dfd-4a41-a09f-a7bbfff49e28)
-    (property "Reference" "SW_SELECT1" (at 242.57 170.18 0)
+    (property "Reference" "SW_SELECT" (at 242.57 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 231.14 168.91 0)
@@ -812,7 +790,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_SELECT1") (unit 1)
+          (reference "SW_SELECT") (unit 1)
         )
       )
     )
@@ -894,31 +872,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 184.15 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 88a4149e-5697-4b32-9b69-8a832ee32e70)
-    (property "Reference" "#PWR012" (at 184.15 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 184.15 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 184.15 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 184.15 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 87b02fcf-d534-4b3a-97b2-a2c4e68b1d45))
-    (instances
-      (project "BrookHitbox"
-        (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 105.41 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89f33c30-776c-4319-a74b-6479956dbb62)
@@ -939,31 +892,6 @@
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
           (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 132.08 186.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8b11acb8-59f2-4209-82d7-cd15cc6ddf0d)
-    (property "Reference" "#FLG01" (at 132.08 184.785 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.08 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 166879bd-e5e3-4dbc-a54d-eb026858e8d8))
-    (instances
-      (project "BrookHitbox"
-        (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -994,10 +922,35 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 334.01 74.93 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9332c741-3021-41f7-8cb5-45e82acf8707)
+    (property "Reference" "#PWR04" (at 334.01 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 334.01 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 334.01 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 334.01 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 50e7d272-41e7-45c4-8661-0fed3d3b3ce3))
+    (instances
+      (project "BrookHitbox"
+        (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 298.45 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9920d1c1-5f03-4dde-8a74-b86645e0073d)
-    (property "Reference" "SW_CIRCLE1" (at 309.88 83.82 0)
+    (property "Reference" "SW_CIRCLE" (at 309.88 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 298.45 82.55 0)
@@ -1014,7 +967,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_CIRCLE1") (unit 1)
+          (reference "SW_CIRCLE") (unit 1)
         )
       )
     )
@@ -1095,35 +1048,10 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 334.01 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b6e2d893-58aa-4b74-a0a9-23fe6e27bc11)
-    (property "Reference" "#PWR04" (at 334.01 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 334.01 80.01 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 334.01 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 334.01 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 153ab22d-e627-4ced-8277-cf08c723aef6))
-    (instances
-      (project "BrookHitbox"
-        (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 69.85 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b884f5b2-a59b-4164-9f82-5f8926400574)
-    (property "Reference" "SW_DOWN1" (at 81.28 69.85 0)
+    (property "Reference" "SW_DOWN" (at 81.28 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 69.85 68.58 0)
@@ -1140,7 +1068,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_DOWN1") (unit 1)
+          (reference "SW_DOWN") (unit 1)
         )
       )
     )
@@ -1174,7 +1102,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 256.54 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccc94f3b-3824-44ca-a5b4-d42b339d8e1b)
-    (property "Reference" "SW_PSXBOX1" (at 267.97 140.97 0)
+    (property "Reference" "SW_PSXBOX" (at 267.97 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 256.54 139.7 0)
@@ -1191,7 +1119,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_PSXBOX1") (unit 1)
+          (reference "SW_PSXBOX") (unit 1)
         )
       )
     )
@@ -1200,7 +1128,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 261.62 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce8067b2-e760-4d88-9648-faa89b9fc995)
-    (property "Reference" "SW_X1" (at 273.05 83.82 0)
+    (property "Reference" "SW_X" (at 273.05 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 261.62 82.55 0)
@@ -1217,7 +1145,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_X1") (unit 1)
+          (reference "SW_X") (unit 1)
         )
       )
     )
@@ -1277,7 +1205,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 186.69 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb606f8a-6624-4232-a9d4-88307cbbebdd)
-    (property "Reference" "SW_START1" (at 198.12 62.23 0)
+    (property "Reference" "SW_START" (at 198.12 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 186.69 60.96 0)
@@ -1294,7 +1222,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_START1") (unit 1)
+          (reference "SW_START") (unit 1)
         )
       )
     )
@@ -1303,7 +1231,7 @@
   (symbol (lib_id "BrookHitboxSymbols:MX-SW") (at 33.02 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fda07910-af6f-4118-860a-ac79861e224e)
-    (property "Reference" "SW_LEFT1" (at 44.45 69.85 0)
+    (property "Reference" "SW_LEFT" (at 44.45 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 33.02 68.58 0)
@@ -1320,7 +1248,7 @@
     (instances
       (project "BrookHitbox"
         (path "/8a682108-57a0-4e08-bf48-a8e61ef9e3ef"
-          (reference "SW_LEFT1") (unit 1)
+          (reference "SW_LEFT") (unit 1)
         )
       )
     )
