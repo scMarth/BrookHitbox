@@ -83,3 +83,40 @@ grid x 0.0010 y 0.0010
 Haystack code uses C-Left and C-Down:
     outputs.select = inputs.c_left;
     outputs.home = inputs.c_down;
+
+0805
+
+|<a>|<------------b------->|
+-----                      ----- ---
+|   |                      |   |  ^
+|   |                      |   |  c
+|   |                      |   |  v
+-----                      ----- ---
+
+a = 1.025mm
+b = .8mm
+c = 1.4mm
+
+
+.12mm
+
+SW_SELECT1
+    PIN1 bidirectional
+    PIN2 power input
+
+Symbol SW_R2 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_RIGHT1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_RIGHT1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_SELECT1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_SELECT1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_SQUARE1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_SQUARE1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_START1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_START1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_TRIANGLE1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_TRIANGLE1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_UP1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_UP1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_X1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Error: Symbol SW_X1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
+Total warnings: 46, errors: 46.
