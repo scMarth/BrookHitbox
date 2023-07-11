@@ -120,3 +120,32 @@ Error: Symbol SW_UP1 has pins with no number.  These pins can not be matched to 
 Error: Symbol SW_X1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
 Error: Symbol SW_X1 has pins with no number.  These pins can not be matched to pads in Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB.
 Total warnings: 46, errors: 46.
+
+SW_SELECT1
+    PIN1 = SEL
+    PIN2 = GND
+
+BrookConnection1
+    1       DOWN
+    2       UP
+    3       LEFT
+    4       RIGHT
+    5       PS/XBOX
+    6       SELECT
+    7       START
+    8       1P
+    9       2P
+    10      3P
+    11      4P
+    12      1K
+    13      2K
+    14      3K
+    15      4K
+    16      GND
+
+347.001 mm = length of the red space in OF1
+    x -24.9989 y 176.2536
+
+    x 322.0011 y 177.2536
+
+    322.0011 + 24.9989 = 347
