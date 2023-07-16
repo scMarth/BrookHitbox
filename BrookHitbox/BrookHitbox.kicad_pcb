@@ -108,7 +108,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 111753ec-a8d5-4141-9e10-33c3cab976ae)
-    (at 226.06 33.02)
+    (at 254.4861 42.1726)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -175,7 +175,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 1a283887-a7fa-4de0-a361-999fee779faf)
-    (at 185.42 116.84)
+    (at 198.2661 165.0726)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -242,7 +242,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 1a774949-a911-40da-80b2-6f80f6b94167)
-    (at 208.28 109.22)
+    (at 198.2661 133.8876)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -309,7 +309,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 28a5d922-25b0-49db-a8c0-62b8e33018aa)
-    (at 199.224 33.359)
+    (at 227.9681 54.1686)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -376,7 +376,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 5f2ed98d-9b53-43fe-8c9b-23e4b780e3f1)
-    (at 251.46 33.02)
+    (at 282.8411 45.1476)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -443,7 +443,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 85b84539-50c6-4f77-b022-33c46428cf44)
-    (at 205.74 63.5)
+    (at 254.4861 69.7826)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -510,7 +510,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 94fdf960-877f-4220-b9a2-1f386148faf8)
-    (at 58.42 45.72)
+    (at 42.6021 70.3886)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -577,7 +577,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp a9930cc4-857e-47e4-990f-d649f27c8743)
-    (at 254 63.5)
+    (at 309.0641 88.7936)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -644,7 +644,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp af878041-85a5-4ab9-b25d-f2b234563d3b)
-    (at 83.82 45.72)
+    (at 69.1741 82.1516)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -711,7 +711,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp b060fca8-176d-4725-8512-d48c4e95579e)
-    (at 33.02 45.72)
+    (at 14.2461 73.1146)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -778,7 +778,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp c27ac340-bfff-412e-8cdd-97a6bb6da87b)
-    (at 132.08 43.18)
+    (at 148.9061 82.1516)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -845,7 +845,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp c793e2de-a4e7-4754-ac5c-ba0dcc29fd43)
-    (at 228.6 63.5)
+    (at 282.8411 72.7576)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -912,7 +912,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp e3a6ffbd-2c0c-49e6-ba54-12bdfe594a07)
-    (at 179.965 64.022)
+    (at 227.9681 81.7776)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -979,7 +979,7 @@
 
   (footprint "BrookHitboxFootprints:BrookConn16" (layer "F.Cu")
     (tstamp ed9cbf86-3598-49b7-9417-3dd2251f919a)
-    (at 155.54 43.879 -90)
+    (at 167.74 52.1 -90)
     (property "Sheetfile" "BrookHitbox.kicad_sch")
     (property "Sheetname" "")
     (path "/212ecd48-f23d-4a3a-b467-7efe3b97f1f7")
@@ -1046,7 +1046,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp f7cec495-5404-4c09-9c1e-abd0e603bbdf)
-    (at 276.234 31.475)
+    (at 309.0641 61.1836)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1113,7 +1113,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp f84941f0-767f-4196-91b8-78bfb917f6ee)
-    (at 76.2 124.46)
+    (at 76.1331 149.3026)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")

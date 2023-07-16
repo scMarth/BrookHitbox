@@ -69,7 +69,7 @@ SW_Cherry_MX_1.00u_PCB: This footprint is specifically designed for Cherry MX sw
 
 
 
-
+ 
 
 
 grid x 0.0010 y 0.0010
@@ -153,3 +153,15 @@ BrookConnection1
 
 https://www.youtube.com/watch?v=aVUqaB0IMh4&t=3455s
     mounting holes, board outline
+
+
+
+[14.2461, 73.1146] [42.6021, 70.3886] [69.1741, 82.1516]       [148.9061, 82.1516]      [227.9681, 54.1686] [254.4861, 42.1726] [282.8411, 45.1476] [309.0641, 61.1836]
+                                                                                        [227.9681, 81.7776] [254.4861, 69.7826] [282.8411, 72.7576] [309.0641, 88.7936]
+                                      [76.1331, 149.3026]                              [198.2661, 133.8876]
+                                                                                      [198.2661, 165.0726]
+                                        
+
+Haystack code uses C-Left and C-Down:
+    outputs.select = inputs.c_left;
+    outputs.home = inputs.c_down;
