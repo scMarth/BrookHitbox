@@ -149,3 +149,7 @@ BrookConnection1
     x 322.0011 y 177.2536
 
     322.0011 + 24.9989 = 347
+
+
+https://www.youtube.com/watch?v=aVUqaB0IMh4&t=3455s
+    mounting holes, board outline
