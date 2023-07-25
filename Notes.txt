@@ -165,3 +165,8 @@ https://www.youtube.com/watch?v=aVUqaB0IMh4&t=3455s
 Haystack code uses C-Left and C-Down:
     outputs.select = inputs.c_left;
     outputs.home = inputs.c_down;
+
+
+Using M2 mounting holes
+
+Apparently the drawing sheet doesn't matter
