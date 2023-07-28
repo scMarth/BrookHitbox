@@ -197,3 +197,5 @@ holes:
 
 378.25 - 50.75 = 327.5
 223.50 - 71.25 = 152.25
+
+Open Frame 1 uses 0.25 mm track width for signals, but has a ground plane
