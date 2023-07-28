@@ -170,3 +170,28 @@ Haystack code uses C-Left and C-Down:
 Using M2 mounting holes
 
 Apparently the drawing sheet doesn't matter
+
+
+UFB Fusion mounting holes are about 8.8cm apart (length) 3.7cm (width) .. approximately for center of hole to center of hole
+88mm 37mm
+
+holes:
+    1
+        x 213.36 mm y 99.06 mm
+    2
+        x 213.36 mm y 11.06 mm
+    3
+        x 176.36 mm y 99.06 mm
+    4
+        x 176.36 mm y 11.06 mm
+
+
+    5
+        50.8, 71.12
+    6
+        378.46, 71.12
+    7
+        381, 223.52
+    8
+        50.8, 223.52
+

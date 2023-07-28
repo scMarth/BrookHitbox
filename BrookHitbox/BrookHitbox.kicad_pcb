@@ -108,7 +108,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp 02b115e6-1738-43f7-9b00-03393377bede)
-    (at 93.2719 55.8024)
+    (at 50.8 223.52)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -138,7 +138,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 111753ec-a8d5-4141-9e10-33c3cab976ae)
-    (at 306.608 72.295)
+    (at 308.78 81.941)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -205,7 +205,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 1a283887-a7fa-4de0-a361-999fee779faf)
-    (at 250.388 195.195)
+    (at 252.56 204.841)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -272,7 +272,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 1a774949-a911-40da-80b2-6f80f6b94167)
-    (at 250.388 164.01)
+    (at 252.56 173.656)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -339,7 +339,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 28a5d922-25b0-49db-a8c0-62b8e33018aa)
-    (at 280.09 84.291)
+    (at 282.262 93.937)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -406,7 +406,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp 4272996a-eaeb-47af-943c-c2618c400e24)
-    (at 95.5319 70.6024)
+    (at 50.8 71.12)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -436,7 +436,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 5f2ed98d-9b53-43fe-8c9b-23e4b780e3f1)
-    (at 334.963 75.27)
+    (at 337.135 84.916)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -503,7 +503,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp 7bc0140f-b4be-4f78-b16e-f91b772216e5)
-    (at 130.3119 71.2524)
+    (at 218.44 76.2)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -533,7 +533,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 85b84539-50c6-4f77-b022-33c46428cf44)
-    (at 306.608 99.905)
+    (at 308.78 109.551)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -600,7 +600,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 94fdf960-877f-4220-b9a2-1f386148faf8)
-    (at 94.724 100.511)
+    (at 96.896 110.157)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -667,7 +667,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp 979ca68e-300d-4f8c-be89-be56a209b821)
-    (at 127.8219 56.5624)
+    (at 218.44 164.2)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -697,7 +697,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp a9930cc4-857e-47e4-990f-d649f27c8743)
-    (at 361.186 118.916)
+    (at 363.358 128.562)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -764,7 +764,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp af878041-85a5-4ab9-b25d-f2b234563d3b)
-    (at 121.296 112.274)
+    (at 123.468 121.92)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -831,7 +831,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp b060fca8-176d-4725-8512-d48c4e95579e)
-    (at 66.368 103.237)
+    (at 68.54 112.883)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -898,7 +898,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp c27ac340-bfff-412e-8cdd-97a6bb6da87b)
-    (at 201.028 112.274)
+    (at 203.2 121.92)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -965,7 +965,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp c52c1fcc-0a7c-4a5f-a826-3b5a8e053c25)
-    (at 115.1619 73.1724)
+    (at 181.44 76.2)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -995,7 +995,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp c793e2de-a4e7-4754-ac5c-ba0dcc29fd43)
-    (at 334.963 102.88)
+    (at 337.135 112.526)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1062,7 +1062,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp e3a6ffbd-2c0c-49e6-ba54-12bdfe594a07)
-    (at 280.09 111.9)
+    (at 282.262 121.546)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1129,7 +1129,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp e456c236-8271-4961-b8fd-88655bb9c00d)
-    (at 106.5819 73.9024)
+    (at 378.46 71.12)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1159,7 +1159,7 @@
 
   (footprint "BrookHitboxFootprints:BrookConn16" (layer "F.Cu")
     (tstamp ed9cbf86-3598-49b7-9417-3dd2251f919a)
-    (at 219.8619 82.2224 -90)
+    (at 248.92 118.05 -90)
     (property "Sheetfile" "BrookHitbox.kicad_sch")
     (property "Sheetname" "")
     (path "/212ecd48-f23d-4a3a-b467-7efe3b97f1f7")
@@ -1226,7 +1226,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp ede5f7d6-3db0-48c3-b7a8-5e3b0188b405)
-    (at 104.7319 55.9124)
+    (at 378.46 223.52)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1256,7 +1256,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp ee4e5c1b-5ccb-4743-adb5-36911bb9700f)
-    (at 114.0119 56.8324)
+    (at 181.44 164.2)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1286,7 +1286,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp f7cec495-5404-4c09-9c1e-abd0e603bbdf)
-    (at 361.186 91.306)
+    (at 363.358 100.952)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1353,7 +1353,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp f84941f0-767f-4196-91b8-78bfb917f6ee)
-    (at 128.255 179.425)
+    (at 130.427 189.071)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
