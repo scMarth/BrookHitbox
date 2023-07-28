@@ -108,7 +108,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp 02b115e6-1738-43f7-9b00-03393377bede)
-    (at 50.8 223.52)
+    (at 50.75 223.5)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -406,7 +406,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp 4272996a-eaeb-47af-943c-c2618c400e24)
-    (at 50.8 71.12)
+    (at 50.75 71.25)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1129,7 +1129,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp e456c236-8271-4961-b8fd-88655bb9c00d)
-    (at 378.46 71.12)
+    (at 378.25 71.25)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1226,7 +1226,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp ede5f7d6-3db0-48c3-b7a8-5e3b0188b405)
-    (at 378.46 223.52)
+    (at 378.25 223.5)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "BrookHitbox.kicad_sch")
@@ -1417,5 +1417,22 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_arc (start 381.25 223.5) (mid 380.37132 225.62132) (end 378.25 226.5)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 08e9ae84-ddc6-42ee-ba76-34c562b1fd42))
+  (gr_line (start 378.25 68.25) (end 50.75 68.25)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 46024420-76cf-4d92-9cd6-d437d0412553))
+  (gr_line (start 378.25 226.5) (end 50.75 226.5)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 6696dcb8-dedf-4d1a-b8c9-0c82f6d38f44))
+  (gr_line (start 381.25 71.25) (end 381.25 223.5)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 804f9031-7f01-4113-bb45-6a10a80b8614))
+  (gr_arc (start 378.25 68.25) (mid 380.37132 69.12868) (end 381.25 71.25)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a0a37e51-fd04-44af-9aa5-384457f1bd0f))
+  (gr_arc (start 47.75 71.25) (mid 48.62868 69.12868) (end 50.75 68.25)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b96e88fc-e131-40e0-8e1f-163a36be6997))
+  (gr_arc (start 50.75 226.5) (mid 48.62868 225.62132) (end 47.75 223.5)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp c62e63e5-843b-4b73-9225-0d88113f8782))
+  (gr_line (start 47.75 71.25) (end 47.75 223.5)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp c797f098-b1b0-40fe-aa7d-189331a90613))
 
 )
