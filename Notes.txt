@@ -178,8 +178,11 @@ UFB Fusion mounting holes are about 8.8cm apart (length) 3.7cm (width) .. approx
 holes:
     1
         x 213.36 mm y 99.06 mm
+        219, 71.25
     2
         x 213.36 mm y 11.06 mm
+    
+        219, 159.25
     3
         x 176.36 mm y 99.06 mm
     4

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\vince\Documents\Github\BrookHitbox\BrookHitbox\BrookHitbox.kicad_sch</source>
+    <date>7/28/2023 7:10:31 PM</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BrookHitbox.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BrookConnection1">
+      <value>~</value>
+      <footprint>BrookHitboxFootprints:BrookConn16</footprint>
+      <libsource lib="BrookHitboxSymbols" part="BrookConnection" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>212ecd48-f23d-4a3a-b467-7efe3b97f1f7</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fb12981-0e4a-4d8b-9c9d-25d6821b0621</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d25068d-acb9-41cf-bb01-b463c8422e71</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6412b6b-e221-480d-806d-2f4d0260455d</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>485ced9e-b793-4d1a-9635-e6cf47eb54bd</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46df0f26-7bc8-41b6-972e-c3b6e68f7f37</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96f5831e-af7a-4ea8-8d55-6a1726c5ca53</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae676cf6-ff41-4189-b219-38e0d5ea2750</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7f49273-4c8c-420d-a6aa-945c28b8f821</tstamps>
+    </comp>
+    <comp ref="SW_CIRCLE1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9920d1c1-5f03-4dde-8a74-b86645e0073d</tstamps>
+    </comp>
+    <comp ref="SW_DOWN1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b884f5b2-a59b-4164-9f82-5f8926400574</tstamps>
+    </comp>
+    <comp ref="SW_L1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a659f4-4a1e-4028-a9e4-1cef57c53b81</tstamps>
+    </comp>
+    <comp ref="SW_L2">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e99c538a-53e8-4c01-ae78-fbf89c8bc0ba</tstamps>
+    </comp>
+    <comp ref="SW_LEFT1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fda07910-af6f-4118-860a-ac79861e224e</tstamps>
+    </comp>
+    <comp ref="SW_PSXBOX1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccc94f3b-3824-44ca-a5b4-d42b339d8e1b</tstamps>
+    </comp>
+    <comp ref="SW_R1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7116b5ce-4ab8-4ae9-9783-a04b7591caeb</tstamps>
+    </comp>
+    <comp ref="SW_R2">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0838e24c-f84e-4e2d-8f01-27e52059423c</tstamps>
+    </comp>
+    <comp ref="SW_RIGHT1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a7c64e7-35f9-45df-9d6b-e2ad98b37b55</tstamps>
+    </comp>
+    <comp ref="SW_SELECT1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5efaea29-7dfd-4a41-a09f-a7bbfff49e28</tstamps>
+    </comp>
+    <comp ref="SW_SQUARE1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f3c24fd-9cc2-4bb0-8eb0-0758a8163419</tstamps>
+    </comp>
+    <comp ref="SW_START1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb606f8a-6624-4232-a9d4-88307cbbebdd</tstamps>
+    </comp>
+    <comp ref="SW_TRIANGLE1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ad035fc-0261-4a50-9665-3150958f05aa</tstamps>
+    </comp>
+    <comp ref="SW_UP1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5297bfb0-2c24-4c4a-8810-701a0d99bfea</tstamps>
+    </comp>
+    <comp ref="SW_X1">
+      <value>~</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="BrookHitboxSymbols" part="MX-SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrookHitbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce8067b2-e760-4d88-9648-faa89b9fc995</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BrookHitboxSymbols" part="BrookConnection">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOWN" type="bidirectional"/>
+        <pin num="2" name="UP" type="bidirectional"/>
+        <pin num="3" name="LEFT" type="bidirectional"/>
+        <pin num="4" name="RIGHT" type="bidirectional"/>
+        <pin num="5" name="PS/XBOX" type="bidirectional"/>
+        <pin num="6" name="SELECT" type="bidirectional"/>
+        <pin num="7" name="START" type="bidirectional"/>
+        <pin num="8" name="1P" type="bidirectional"/>
+        <pin num="9" name="2P" type="bidirectional"/>
+        <pin num="10" name="3P" type="bidirectional"/>
+        <pin num="11" name="4P" type="bidirectional"/>
+        <pin num="12" name="1K" type="bidirectional"/>
+        <pin num="13" name="2K" type="bidirectional"/>
+        <pin num="14" name="3K" type="bidirectional"/>
+        <pin num="15" name="4K" type="bidirectional"/>
+        <pin num="16" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BrookHitboxSymbols" part="MX-SW">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="bidirectional"/>
+        <pin num="2" name="PIN2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BrookHitboxSymbols">
+      <uri>C:\Users\vince\Documents\Github\BrookHitbox\BrookHitbox/BrookHitboxSymbols.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CIR">
+      <node ref="BrookConnection1" pin="13" pinfunction="2K" pintype="bidirectional"/>
+      <node ref="SW_CIRCLE1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/DWN">
+      <node ref="BrookConnection1" pin="1" pinfunction="DOWN" pintype="bidirectional"/>
+      <node ref="SW_DOWN1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/L1">
+      <node ref="BrookConnection1" pin="11" pinfunction="4P" pintype="bidirectional"/>
+      <node ref="SW_L1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/L2">
+      <node ref="BrookConnection1" pin="15" pinfunction="4K" pintype="bidirectional"/>
+      <node ref="SW_L2" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/LFT">
+      <node ref="BrookConnection1" pin="3" pinfunction="LEFT" pintype="bidirectional"/>
+      <node ref="SW_LEFT1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/PS">
+      <node ref="BrookConnection1" pin="5" pinfunction="PS/XBOX" pintype="bidirectional"/>
+      <node ref="SW_PSXBOX1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/R1">
+      <node ref="BrookConnection1" pin="10" pinfunction="3P" pintype="bidirectional"/>
+      <node ref="SW_R1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/R2">
+      <node ref="BrookConnection1" pin="14" pinfunction="3K" pintype="bidirectional"/>
+      <node ref="SW_R2" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/RT">
+      <node ref="BrookConnection1" pin="4" pinfunction="RIGHT" pintype="bidirectional"/>
+      <node ref="SW_RIGHT1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/SEL">
+      <node ref="BrookConnection1" pin="6" pinfunction="SELECT" pintype="bidirectional"/>
+      <node ref="SW_SELECT1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/SQU">
+      <node ref="BrookConnection1" pin="8" pinfunction="1P" pintype="bidirectional"/>
+      <node ref="SW_SQUARE1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/STA">
+      <node ref="BrookConnection1" pin="7" pinfunction="START" pintype="bidirectional"/>
+      <node ref="SW_START1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/TRI">
+      <node ref="BrookConnection1" pin="9" pinfunction="2P" pintype="bidirectional"/>
+      <node ref="SW_TRIANGLE1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/UP">
+      <node ref="BrookConnection1" pin="2" pinfunction="UP" pintype="bidirectional"/>
+      <node ref="SW_UP1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/X">
+      <node ref="BrookConnection1" pin="12" pinfunction="1K" pintype="bidirectional"/>
+      <node ref="SW_X1" pin="1" pinfunction="PIN1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="BrookConnection1" pin="16" pinfunction="GND" pintype="input"/>
+      <node ref="SW_CIRCLE1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_DOWN1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_L1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_L2" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_LEFT1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_PSXBOX1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_R1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_R2" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_RIGHT1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_SELECT1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_SQUARE1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_START1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_TRIANGLE1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_UP1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+      <node ref="SW_X1" pin="2" pinfunction="PIN2" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
