@@ -185,8 +185,10 @@ holes:
         219, 159.25
     3
         x 176.36 mm y 99.06 mm
+        182, 71.25
     4
         x 176.36 mm y 11.06 mm
+           182, 159.25
 
 
     5
@@ -202,3 +204,10 @@ holes:
 223.50 - 71.25 = 152.25
 
 Open Frame 1 uses 0.25 mm track width for signals, but has a ground plane
+
+#4-40 x 1/2 in screws fit the mounting holes in the Brook UFB Fusion
+
+Frame 1 heavy dimensions:
+    - 14 1/4 inch x 6 5/8 inch x 1 inch
+
+The pads should have had more space between them... either a staggered footprint or use the current spacing but skip every other pad?
